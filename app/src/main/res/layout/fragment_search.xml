@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.circularreveal.CircularRevealGridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p1"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p2"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p3"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p4"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p5"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p6"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p7"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p8"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p8"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p9"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p10"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p5"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p11"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p12"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p13"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p14"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p16"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p17"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/d1"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/d2"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/d3"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/d4"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/d5"
+                style="@style/search_item_style"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/p5"
+                style="@style/search_item_style"/>
+
+
+
+
+        </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

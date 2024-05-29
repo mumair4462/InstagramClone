@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/vertical_line"/>
+    <!-- post title container  -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/post_userpic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/d1"
+            android:layout_marginRight="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/post_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Umair Saeed"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_dot_menu"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <!-- post image box   -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/post_userpost"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/p1"
+        android:scaleType="fitXY"/>
+
+    <!-- post bottom container  -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_heart"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_comment"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_send"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_save"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <include layout="@layout/vertical_line"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
